@@ -12,7 +12,7 @@
         <image:image>
             <image:loc>https://packs.layalcloud.tech/og-image.jpg</image:loc>
             <image:title>MinecraftMods - Essential Minecraft Modifications Collection</image:title>
-            <image:caption>Discover 18 essential Minecraft mods with 3B+ downloads</image:caption>
+            <image:caption>Discover 35 essential Minecraft mods with 5B+ downloads</image:caption>
         </image:image>
     </url>
     
@@ -160,8 +160,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.65</priority>
     </url>
-    
-    <!-- Food and Farming -->
+      <!-- Food and Farming -->
     <url>
         <loc>https://packs.layalcloud.tech/pams-harvestcraft.html</loc>
         <lastmod>2025-06-10T00:00:00+00:00</lastmod>
@@ -169,6 +168,148 @@
         <priority>0.65</priority>
     </url>
     
-</urlset>
+    <!-- New Essential Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/botania.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/botania-preview.jpg</image:loc>
+            <image:title>Botania - Magical Technology and Automation</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/storage-drawers.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/refined-storage.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/refined-storage-preview.jpg</image:loc>
+            <image:title>Refined Storage - Advanced Digital Storage System</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/chisel.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+      <url>
+        <loc>https://packs.layalcloud.tech/forestry.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/forestry-preview.jpg</image:loc>
+            <image:title>Forestry - Advanced Farming and Automation Legacy</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Latest Essential Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/phosphor.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/curios.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/alexs-mobs.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/alexs-mobs-preview.jpg</image:loc>
+            <image:title>Alex's Mobs - 100+ Realistic Creatures and Animals</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/quark.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/quark-preview.jpg</image:loc>
+            <image:title>Quark - 400+ Quality of Life Features</image:title>
+        </image:image>
+    </url>
+      <url>
+        <loc>https://packs.layalcloud.tech/immersive-engineering.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/immersive-engineering-preview.jpg</image:loc>
+            <image:title>Immersive Engineering - Realistic Industrial Technology</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Additional Essential Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/farmers-delight.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/kotlin-for-forge.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/mantle.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/fast-leaf-decay.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/mouse-tweaks.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/inventory-tweaks.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/natures-compass.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
     
 </urlset>
