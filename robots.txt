@@ -1,0 +1,60 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://packs.layalcloud.tech/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Prioritize important pages
+Allow: /index.html
+Allow: /sodium.html
+Allow: /optifine.html
+Allow: /create.html
+Allow: /fabric-api.html
+Allow: /jei.html
+Allow: /journeymap.html
+
+# Allow all static resources
+Allow: /*.css
+Allow: /*.js
+Allow: /*.html
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.json
+Allow: /*.xml
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block common bot patterns that aren't useful
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Additional sitemap reference
+Sitemap: https://packs.layalcloud.tech/sitemap.xml
+Allow: /fabric-api.html
+Allow: /create.html
+Allow: /journeymap.html

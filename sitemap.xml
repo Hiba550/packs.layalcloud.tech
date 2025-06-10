@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    
+    <!-- Main page -->
+    <url>
+        <loc>https://packs.layalcloud.tech/</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/og-image.jpg</image:loc>
+            <image:title>MinecraftMods - Essential Minecraft Modifications Collection</image:title>
+            <image:caption>Discover 18 essential Minecraft mods with 3B+ downloads</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Performance Mods - Highest Priority -->
+    <url>
+        <loc>https://packs.layalcloud.tech/sodium.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/sodium-preview.jpg</image:loc>
+            <image:title>Sodium Mod - Minecraft Performance Optimization</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/optifine.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/optifine-preview.jpg</image:loc>
+            <image:title>OptiFine Mod - Minecraft Shaders and Performance</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/lithium.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/iris.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Essential Libraries -->
+    <url>
+        <loc>https://packs.layalcloud.tech/fabric-api.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/architectury.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Tech/Automation Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/create.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://packs.layalcloud.tech/create-preview.jpg</image:loc>
+            <image:title>Create Mod - Minecraft Mechanical Automation</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/applied-energistics.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/thermal-expansion.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Utility Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/jei.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/rei.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/journeymap.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/xaeros-minimap.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/waystones.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Adventure/Content Mods -->
+    <url>
+        <loc>https://packs.layalcloud.tech/twilight-forest.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://packs.layalcloud.tech/biomes-o-plenty.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <!-- Tools and Crafting -->
+    <url>
+        <loc>https://packs.layalcloud.tech/tinkers-construct.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <!-- Storage and QoL -->
+    <url>
+        <loc>https://packs.layalcloud.tech/iron-chests.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.65</priority>
+    </url>
+    
+    <!-- Food and Farming -->
+    <url>
+        <loc>https://packs.layalcloud.tech/pams-harvestcraft.html</loc>
+        <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.65</priority>
+    </url>
+    
+</urlset>
+    
+</urlset>

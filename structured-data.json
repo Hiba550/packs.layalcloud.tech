@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://packs.layalcloud.tech/#website",
+      "url": "https://packs.layalcloud.tech/",
+      "name": "MinecraftMods",
+      "description": "Essential Minecraft Modifications showcase featuring 18 top mods with 3B+ downloads",
+      "publisher": {
+        "@id": "https://packs.layalcloud.tech/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://packs.layalcloud.tech/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://packs.layalcloud.tech/#organization",
+      "name": "MinecraftMods",
+      "url": "https://packs.layalcloud.tech/",
+      "description": "Curating the best Minecraft modifications for enhanced gameplay",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://packs.layalcloud.tech/logo.png",
+        "width": 200,
+        "height": 200
+      },
+      "sameAs": [
+        "https://github.com/MinecraftMods",
+        "https://twitter.com/MinecraftMods"
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://packs.layalcloud.tech/#webpage",
+      "url": "https://packs.layalcloud.tech/",
+      "name": "Essential Minecraft Mods Collection",
+      "isPartOf": {
+        "@id": "https://packs.layalcloud.tech/#website"
+      },
+      "about": {
+        "@id": "https://packs.layalcloud.tech/#organization"
+      },
+      "description": "Discover 18 essential Minecraft mods with over 3 billion downloads combined. Performance mods, utility tools, automation systems, and adventure content.",
+      "breadcrumb": {
+        "@id": "https://packs.layalcloud.tech/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Essential Minecraft Mods",
+        "description": "Curated collection of the most popular and essential Minecraft modifications",
+        "numberOfItems": 18,
+        "itemListElement": [
+          {
+            "@type": "SoftwareApplication",
+            "position": 1,
+            "name": "Sodium",
+            "description": "Modern rendering engine that dramatically improves frame rates and reduces micro-stutter",
+            "url": "https://packs.layalcloud.tech/sodium.html",
+            "applicationCategory": "Game Modification",
+            "applicationSubCategory": "Performance Optimization",
+            "operatingSystem": "Minecraft Java Edition 1.16+",
+            "softwareRequirements": "Fabric Loader, Fabric API",
+            "author": {
+              "@type": "Person",
+              "name": "CaffeineMC"
+            },
+            "downloadUrl": "https://modrinth.com/mod/sodium",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "50000",
+              "bestRating": "5"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "position": 2,
+            "name": "OptiFine",
+            "description": "Classic performance and graphics enhancement mod with shader support",
+            "url": "https://packs.layalcloud.tech/optifine.html",
+            "applicationCategory": "Game Modification",
+            "applicationSubCategory": "Graphics Enhancement",
+            "operatingSystem": "Minecraft Java Edition",
+            "softwareRequirements": "Minecraft Forge",
+            "author": {
+              "@type": "Person",
+              "name": "sp614x"
+            },
+            "downloadUrl": "https://optifine.net/downloads",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "100000",
+              "bestRating": "5"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "position": 3,
+            "name": "Create",
+            "description": "Revolutionary automation mod with realistic mechanical contraptions",
+            "url": "https://packs.layalcloud.tech/create.html",
+            "applicationCategory": "Game Modification",
+            "applicationSubCategory": "Automation & Engineering",
+            "operatingSystem": "Minecraft Java Edition 1.16+",
+            "softwareRequirements": "Minecraft Forge, Fabric",
+            "author": {
+              "@type": "Person",
+              "name": "simibubi"
+            },
+            "downloadUrl": "https://modrinth.com/mod/create",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "25000",
+              "bestRating": "5"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "position": 4,
+            "name": "Fabric API",
+            "description": "Essential library mod for Fabric-based modifications",
+            "url": "https://packs.layalcloud.tech/fabric-api.html",
+            "applicationCategory": "Game Modification",
+            "applicationSubCategory": "Library & Framework",
+            "operatingSystem": "Minecraft Java Edition",
+            "softwareRequirements": "Fabric Loader",
+            "author": {
+              "@type": "Organization",
+              "name": "FabricMC"
+            },
+            "downloadUrl": "https://modrinth.com/mod/fabric-api"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "position": 5,
+            "name": "JEI (Just Enough Items)",
+            "description": "Recipe viewer and item management utility",
+            "url": "https://packs.layalcloud.tech/jei.html",
+            "applicationCategory": "Game Modification",
+            "applicationSubCategory": "Utility",
+            "operatingSystem": "Minecraft Java Edition",
+            "softwareRequirements": "Minecraft Forge",
+            "author": {
+              "@type": "Person",
+              "name": "mezz"
+            },
+            "downloadUrl": "https://modrinth.com/mod/jei"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://packs.layalcloud.tech/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://packs.layalcloud.tech/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the most essential Minecraft mods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most essential Minecraft mods include Sodium for performance, OptiFine for graphics, Create for automation, JEI for recipe viewing, and Fabric API for mod compatibility. These mods have billions of downloads combined and are trusted by the Minecraft community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these Minecraft mods free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all the mods featured on MinecraftMods are completely free to download and use. They are open-source or freely available modifications created by the Minecraft community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I install these Minecraft mods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most mods require either Fabric Loader or Minecraft Forge. Download the mod loader first, then place the mod files in your Minecraft mods folder. Each mod page provides specific installation instructions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these mods safe to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all featured mods are well-established, widely used modifications with millions of downloads. They are safe when downloaded from official sources like Modrinth, CurseForge, or the developer's official website."
+          }
+        }
+      ]
+    }
+  ]
+}

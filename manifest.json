@@ -1,0 +1,86 @@
+{
+  "name": "MinecraftMods - Essential Minecraft Modifications",
+  "short_name": "MinecraftMods",
+  "description": "Discover 18 essential Minecraft mods with 3B+ downloads. Performance, utility, tech automation, and adventure mods collection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#2c3e50",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["games", "utilities", "entertainment", "education"],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "MinecraftMods homepage showcasing essential mods"
+    },
+    {
+      "src": "screenshot-narrow.jpg",
+      "sizes": "640x1280",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "MinecraftMods mobile view with mod cards"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Performance Mods",
+      "short_name": "Performance",
+      "description": "View performance optimization mods",
+      "url": "/#performance",
+      "icons": [
+        {
+          "src": "performance-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Utility Mods",
+      "short_name": "Utility",
+      "description": "View utility and helper mods",
+      "url": "/#utility",
+      "icons": [
+        {
+          "src": "utility-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
