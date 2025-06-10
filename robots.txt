@@ -7,7 +7,7 @@ Sitemap: https://packs.layalcloud.tech/sitemap.xml
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
 
-# Prioritize important pages
+# Prioritize important pages for better indexing
 Allow: /index.html
 Allow: /sodium.html
 Allow: /optifine.html
@@ -15,6 +15,9 @@ Allow: /create.html
 Allow: /fabric-api.html
 Allow: /jei.html
 Allow: /journeymap.html
+Allow: /mekanism.html
+Allow: /applied-energistics.html
+Allow: /waystones.html
 
 # Allow all static resources
 Allow: /*.css
@@ -30,7 +33,7 @@ Allow: /*.ico
 Allow: /*.json
 Allow: /*.xml
 
-# Specific bot instructions
+# Specific bot instructions for better crawling
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -43,7 +46,7 @@ User-agent: Slurp
 Allow: /
 Crawl-delay: 2
 
-# Block common bot patterns that aren't useful
+# Block SEO tools and aggressive bots
 User-agent: SemrushBot
 Disallow: /
 
@@ -53,8 +56,11 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-# Additional sitemap reference
+User-agent: DotBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Additional sitemap reference for redundancy
 Sitemap: https://packs.layalcloud.tech/sitemap.xml
-Allow: /fabric-api.html
-Allow: /create.html
-Allow: /journeymap.html

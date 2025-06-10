@@ -1,5 +1,42 @@
 # MinecraftMods .htaccess - SEO and Performance Optimization
 
+# URL Canonicalization and Redirects
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Force HTTPS (if needed)
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Remove www prefix for consistency
+    RewriteCond %{HTTP_HOST} ^www\.packs\.layalcloud\.tech [NC]
+    RewriteRule ^(.*)$ https://packs.layalcloud.tech/$1 [L,R=301]
+
+    # Remove trailing slash for consistency
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+    # Remove .html extension from URLs
+    RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+    RewriteRule ^ /%1 [NC,L,R=301]
+
+    # Add .html extension internally
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^.]*)$ $1.html [L]    # Canonical URL enforcement for query parameters
+    RewriteCond %{QUERY_STRING} !^$
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+([^?\s]*)\?[^\s]*\sHTTP/
+    RewriteRule ^ /%1? [R=301,L]
+    
+    # Enforce canonical domain structure
+    RewriteCond %{HTTP_HOST} !^packs\.layalcloud\.tech$ [NC]
+    RewriteRule ^(.*)$ https://packs.layalcloud.tech/$1 [L,R=301]
+    
+    # Handle multiple trailing slashes
+    RewriteRule ^(.*)//+(.*)$ $1/$2 [R=301,L]
+</IfModule>
+
 # Enable compression
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain

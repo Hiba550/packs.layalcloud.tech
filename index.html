@@ -15,9 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>MinecraftMods - Essential Minecraft Modifications | Top Mods Collection</title>
-    <meta name="title" content="MinecraftMods - Essential Minecraft Modifications | Top Mods Collection">
-    <meta name="description" content="Discover essential Minecraft mods with 5B+ downloads. Performance mods like Sodium & OptiFine, utility mods, tech automation, magic, storage, and building content. Free mod showcase with download links.">
+    <title>MinecraftMods - Essential Mods Collection</title>
+    <meta name="title" content="MinecraftMods - Essential Mods Collection">
+    <meta name="description" content="Discover 35+ essential Minecraft mods with 5B+ downloads. Performance mods like Sodium & OptiFine, utility tools, tech automation, magic systems, and building content.">
     <meta name="keywords" content="minecraft mods, optifine, sodium, fabric mods, forge mods, minecraft modifications, performance mods, minecraft optimization, modded minecraft, minecraft enhancement, minecraft tech mods, minecraft utility mods, minecraft adventure mods">
     <meta name="author" content="MinecraftMods">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -160,6 +160,9 @@
     </script>
 
     <link rel="stylesheet" href="styles.css">
+    <!-- Performance optimization: preload critical CSS -->
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -172,12 +175,12 @@
         <div class="container">
             <div class="header-content">
                 <div class="header-left">
-                    <h1>MinecraftMods</h1>
-                    <p class="subtitle">Essential Minecraft Modifications</p>
+                    <h1>Essential Minecraft Mods Collection</h1>
+                    <p class="subtitle">Top Minecraft Modifications for Performance & Gaming</p>
                 </div>
                 <div class="header-search">
                     <div class="search-box">
-                        <input type="text" id="searchInput" placeholder="Search mods..." aria-label="Search mods">
+                        <input type="text" id="searchInput" placeholder="Search minecraft mods..." aria-label="Search minecraft mods">
                         <span class="search-icon">🔍</span>
                     </div>
                 </div>
@@ -187,8 +190,8 @@
 
     <main class="container">
         <section class="intro">
-            <h2>About MinecraftMods</h2>
-            <p>Discover the most essential and popular Minecraft mods that enhance your gameplay experience. From performance optimization to quality-of-life improvements, these carefully curated mods will transform your Minecraft world. Our collection features the top-rated modifications trusted by millions of players worldwide.</p>
+            <h2>Discover the Best Minecraft Mods with 5B+ Downloads</h2>
+            <p>Essential Minecraft modifications for performance optimization, utility improvements, and enhanced gameplay. Our curated collection features the most popular Minecraft mods trusted by millions of players worldwide, including OptiFine, Sodium, Create, and more.</p>
             <div class="stats">
                 <span class="stat">5B+ Downloads</span>
                 <span class="stat">35 Essential Mods</span>
@@ -641,9 +644,9 @@
         <div class="container">
             <p>&copy; 2025 MinecraftMods. Community-driven mod showcase.</p>
             <div class="links">
-                <a href="https://www.curseforge.com" target="_blank">CurseForge</a>
-                <a href="https://modrinth.com" target="_blank">Modrinth</a>
-                <a href="https://fabricmc.net" target="_blank">Fabric</a>
+                <a href="https://www.curseforge.com" target="_blank" rel="noopener noreferrer">CurseForge</a>
+                <a href="https://modrinth.com" target="_blank" rel="noopener noreferrer">Modrinth</a>
+                <a href="https://fabricmc.net" target="_blank" rel="noopener noreferrer">Fabric</a>
             </div>
         </div>
     </footer>
@@ -755,5 +758,9 @@
             });
         });
     </script>
+    
+    <!-- Social Media Integration -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-647d2e3f8a9b1234" async></script>
+    <div class="addthis_inline_share_toolbox" style="text-align: center; margin: 20px 0;"></div>
 </body>
 </html>
