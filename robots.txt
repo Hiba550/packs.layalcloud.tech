@@ -1,49 +1,12 @@
+# Minecraft Mods Showcase - Robots.txt
+# Optimized for Google SEO Guidelines
+
+# Main crawlers (Google, Bing, Yahoo)
 User-agent: *
 Allow: /
-
-# Crawl-delay for respectful crawling
 Crawl-delay: 1
 
-# Prioritize important pages for better indexing
-Allow: /index.html
-Allow: /sodium.html
-Allow: /optifine.html
-Allow: /create.html
-Allow: /fabric-api.html
-Allow: /jei.html
-Allow: /journeymap.html
-Allow: /mekanism.html
-Allow: /applied-energistics.html
-Allow: /waystones.html
-
-# Allow all static resources
-Allow: /*.css
-Allow: /*.js
-Allow: /*.html
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.gif
-Allow: /*.webp
-Allow: /*.svg
-Allow: /*.ico
-Allow: /*.json
-Allow: /*.xml
-
-# Specific bot instructions for better crawling
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 2
-
-# Block SEO tools and aggressive bots
+# Block aggressive SEO tools and scrapers
 User-agent: SemrushBot
 Disallow: /
 
